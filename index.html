@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="container">
+        <div class="weather_container">
+            <div class="temp">
+                <p>20</p>
+            </div>
+            <div class="TimeLocation">
+                <p>CITY</p>
+                <p>12:58- monday</p>
+            </div>
+
+            <div class="condition">
+                <p style="color:black">Climate:</p>
+            </div>
+        </div>
+        
+        <nav>
+            <form onsubmit="searchforlocation(event)">
+                <input type="text" placeholder="search for location" class="search_area"/>
+                <br><br>
+                <button type="submit">Search Button</button>
+            </form>
+        </nav> 
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
